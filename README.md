@@ -346,7 +346,7 @@ Media → Open Network Stream → http://<ip>:5000/stream/video
 **OpenCV Python:**
 ```python
 import cv2
-cap = cv2.VideoCapture("http://100.72.141.123:5000/stream/video")
+cap = cv2.VideoCapture("http://100.72.XXX.XXX:5000/stream/video")
 while True:
     ret, frame = cap.read()
     cv2.imshow("Pi-Detect", frame)
